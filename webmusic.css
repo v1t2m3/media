@@ -73,7 +73,7 @@ footer {
 .social {
       display: block;
 }
-.social li {
+.social a {
       display: flex;
       width: 150px;
       height: 100%;
@@ -84,6 +84,10 @@ footer {
       margin: auto 5px;
       height: 35px;
       width: 35px;
+}
+.social li a {
+      text-decoration: none;
+      color: white;
 }
 
 /* ====================================== */
