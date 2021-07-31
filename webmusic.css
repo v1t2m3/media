@@ -1,0 +1,264 @@
+* {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+}
+html {
+      background: url(https://anhdepfree.com/wp-content/uploads/2018/12/White-Wallpaper-hinh-nen-trang-23.png)
+            no-repeat center center fixed;
+}
+ul {
+      list-style-type: none;
+      list-style-type: none;
+      list-style-image: none;
+      overflow: hidden;
+      display: flex;
+      justify-content: flex-end;
+      height: 100%;
+}
+.head-title li {
+      display: flex;
+      width: 7%;
+      min-width: 70px;
+      max-width: 150px;
+      height: 100%;
+      align-items: center;
+      text-align: center;
+}
+.head-title li a {
+      text-decoration: none;
+      color: white;
+}
+nav {
+      display: flex;
+      background-color: rgb(126, 126, 126);
+      color: white;
+      height: 5vh;
+      align-content: center;
+      justify-content: space-between;
+      font-family: "Exo 2", sans-serif;
+}
+.webmusic {
+      margin-left: 20px;
+      display: flex;
+      width: 300px;
+      align-items: center;
+      justify-content: start;
+}
+.name_web {
+      margin-left: 15px;
+      font-size: 35px;
+      font-style: italic;
+      font-family: "Cinzel", serif;
+}
+.icon_web img {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+}
+footer {
+      display: inline-flex;
+      align-content: center;
+      justify-content: space-between;
+      background-color: rgb(126, 126, 126);
+      color: white;
+      height: 5vh;
+      font-family: "Exo 2", sans-serif;
+}
+.author {
+      display: block;
+      margin-left: 15px;
+      align-content: center;
+}
+.social {
+      display: block;
+}
+.social li {
+      display: flex;
+      width: 150px;
+      height: 100%;
+      align-items: center;
+      text-align: center;
+}
+.social ion-icon {
+      margin: auto 5px;
+      height: 35px;
+      width: 35px;
+}
+
+/* ====================================== */
+.container {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      height: 100vh;
+}
+.acc-img img {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+}
+.content-container {
+      display: flex;
+      flex-direction: row;
+      width: 100vw;
+      height: 90%;
+      justify-content: space-between;
+}
+.left-container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 45vw;
+      min-width: 300px;
+}
+.table-music table {
+      width: 100%;
+      padding-left: 15px;
+      border-spacing: 5px;
+}
+.table-music table audio {
+      width: 100%;
+      outline: none;
+}
+.right-container {
+      padding-right: 20px;
+      display: flex;
+      flex-direction: column;
+      align-content: flex-start;
+      height: 100%;
+      width: 45vw;
+      min-width: 300px;
+}
+
+.title {
+      font-size: 35px;
+      font-weight: 600;
+      display: flex;
+      background: -webkit-linear-gradient(
+            rgb(145, 118, 245),
+            rgb(135, 35, 250)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 15px auto;
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      font-family: "MonteCarlo", cursive;
+}
+.icon-music {
+      width: 40px;
+}
+.icon-music img {
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+}
+.name-song {
+      text-align: right;
+}
+.name-singer {
+      text-align: right;
+}
+.card_video_main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-items: center;
+      width: 100%;
+}
+.top10_video {
+      margin-top: 20px;
+      width: 100%;
+      height: fit-content;
+      display: grid;
+      grid-template-columns: 48% 48%;
+      gap: 4%;
+}
+.card_video_sub {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-items: center;
+      width: 100%;
+}
+.main_video video {
+      width: 100%;
+      outline: none;
+      border: none;
+      box-shadow: none;
+}
+.descrip_video {
+      display: flex;
+      background-image: linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, 0),
+            rgb(167, 167, 167)
+      );
+      width: 100%;
+      height: max-content;
+      align-items: center;
+      justify-content: space-between;
+}
+.info_video {
+      display: flex;
+      overflow-y: auto;
+      scroll-snap-type: y mandatory;
+}
+.name {
+      margin-left: 25px;
+}
+.name_video,
+.name-song {
+      font-family: "Dancing Script", cursive;
+      font-size: 20px;
+      background: -webkit-linear-gradient(rgb(95, 4, 155), rgb(135, 35, 250));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+.singer_video,
+.name-singer {
+      font-family: "Exo 2", sans-serif;
+      font-size: 15px;
+      background: -webkit-linear-gradient(rgb(184, 122, 255), rgb(94, 0, 182));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+.icon_singer {
+      display: flex;
+      align-items: center;
+      justify-items: center;
+}
+.icon_singer img {
+      display: block;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      margin-left: 15px;
+}
+.rate_video {
+      margin: auto 20px;
+      display: flex;
+      flex-direction: column;
+      justify-items: end;
+      background: -webkit-linear-gradient(rgb(105, 105, 105), rgb(0, 0, 0));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+.icon_rate {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+}
+.icon_rate ion-icon {
+      width: 20px;
+      height: 20px;
+      color: rgb(255, 91, 91);
+      transition: 0.25s ease;
+}
+.icon_rate ion-icon:hover {
+      width: 22px;
+      height: 22px;
+      color: red;
+}
